@@ -31,12 +31,12 @@ func main() {
 	fmt.Println(jobs)
 
 	// append creates a new array and move the data over
-	// time appears to be linear
+	// time is linear
 	jobs = append(jobs, "nurse")
 	fmt.Println(jobs)
 
 	// slice many ways
-	s1 := jobs[:2] // from beginning to index 2
+	s1 := jobs[:2] // from beginning to index 2 not inclusive
 	s2 := jobs[2:] // from 2 to the end
 	s3 := jobs[1:2] // from 1 till 2 not inclusive
 
